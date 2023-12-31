@@ -1,0 +1,327 @@
+@import "_nullstyle";
+// null style
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    font-family: 'Caveat', cursive;
+}
+//============================ Conteiner ============================================================== //
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: content-box;
+}
+._ibg {
+    position: relative;
+}
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+//============================ Main block ============================================================== //
+.page {
+    position: relative;
+    flex: 1 1 auto;
+}
+.main-block {
+    // position: relative;
+}
+.main-block__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-block__body {
+    margin-top: 108px;
+    // padding: 108px 0px 145px 0px;
+    position: relative;
+    z-index: 5;
+    max-width: 593px;
+}
+.main-block__main-content {
+    text-align: center;
+    padding: 75px 32px;
+    background: rgba(16, 83, 121, 0.71);
+    border-radius: 77px;
+    .main-content__title {
+        font-family: 'Caveat', cursive;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 82px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #01A2A2 100%, #01A2A2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        padding: 0px 40px;
+    }
+    @media (max-width: 435px) {
+        .main-content__title {
+            font-size: 45px;
+            line-height: 42px;
+            padding: 0px 20px;
+        }
+    }
+    .main-content__text {
+        font-family: 'Caveat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 55px;
+        text-align: center;
+        background: linear-gradient(180deg, #FFFFFF 0%, #0AC9C9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    @media (max-width: 435px) {
+        .main-content__text {
+            font-size: 25px;
+            line-height: 42px;
+        }
+    }
+}
+.main-block__main-img {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .main-block__main-img-one {
+        max-width: 260px;
+    }
+    .main-block__main-img-two {
+        max-width: 310px;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+//============================ letter block ============================================================== //
+.page-letter {
+    position: relative;
+    z-index: 5;
+    margin: 0px 0px 0px 50px;
+}
+.letter__container {
+    
+}
+.letter__body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    img {
+        max-width: 100%;
+    }
+    .letter-content__body {
+        background: url('../image/For_you/christmas-bauble-1079926_1280\ 1.png') 0px 0px / cover no-repeat;
+        position: absolute;
+        top: 157px;
+        left: 226px;
+        padding: 0px 10px 85px 15px;
+        z-index: -1;
+        max-width: 515px;
+        .letter-content__title {
+            margin: 15px 0px;
+            font-family: 'Caveat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 38px;
+            text-align: center;
+            background: linear-gradient(180deg, #000000 0%, #2216A8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .letter-content__text {
+            text-align: center;
+            padding: 0 85px 0 23px;
+            p {
+                font-family: 'Caveat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 32px;
+                background: linear-gradient(180deg, #000000 0%, #2216A8 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;   
+            }
+        }
+        @media (max-width: 535px) {
+            .letter-content__text p {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+        }
+        .letter-content__text:nth-child(2) {
+            margin: 15px 0px;
+        }
+        .letter-content__text:nth-child(3) {
+            max-width: 470px;
+            margin: 15px 0px;
+        }
+    }
+    @media (max-width: 535px) {
+        .letter-content__body {
+            top: 0px;
+            left: 0px;
+            right: 40px
+        }
+        img {
+            width: 182%;
+        }
+        
+    }
+}
+//============================ letter-relatives ============================================================== //
+.page-letter__your-relatives {
+    margin: -100px 0px 0px 0px;
+    position: relative;
+    z-index: 5;
+}
+.your-relatives__body {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    .your-relatives__content {
+        max-width: 700px;
+        background: rgba(16, 83, 121, 0.71);
+        border-radius: 77px;
+        padding: 70px 95px;
+        .your-relatives__text {
+            margin-bottom: 10px;
+            font-family: 'Caveat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 32px;
+            text-align: center;
+            background: linear-gradient(180deg, #FFFFFF 0%, #02D1FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .your-relatives__title-bottom {
+            font-family: 'Caveat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 39px;
+            line-height: 49px;
+            text-align: center;
+            background: linear-gradient(180deg, #FFFFFF 0%, #02D1FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+    
+}
+
+.your-relatives__block {
+    position: absolute;
+    bottom: 0;
+    left: 65px;
+    background: url(../image/For_you/Return.svg) 0px 0px no-repeat;
+    width: 195px;
+    height: 61px;
+    z-index: 4;
+    transition: all 0.5s ease 0s;
+    transform: scale(1);
+    .your-relatives__link {
+        margin: 15px -32px 0px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Caveat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #47DEFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    &:active {
+        bottom: 3;
+    }
+    &:hover {
+        transition: all 0.5s ease 0s;
+        transform: scale(1.2);
+    }
+}
+//============================ snow ============================================================== //
+.snow1 {
+    background-image: url(../image/snow1.png);
+    // background-size: 200px;
+    position:absolute;
+    z-index: 3;
+    width: 100%;
+    height:2805px;
+    animation: snow1 18s linear infinite;    
+}
+.snow2 {
+    background-image: url(../image/snow2.png);
+    background-image: url(../image/snow3.png);
+    animation: snow2 10s linear infinite;
+    width: 100%;
+    height:2805px;
+    position:absolute;
+    z-index: 3;
+}
+
+@keyframes snow2 {
+    0% {
+        background-position: 0 0, 0 0;
+    }
+    100% {
+        background-position: 10% 600px, 10% 600px;
+    }
+}
+
+@keyframes snow1 {
+    from {
+        background-position: 0 -300px;
+    }
+    20% {
+        background-position: 20% -100px;
+    }
+    40% {
+        background-position: 30% 100px;
+    }
+    to {
+        background-position: 20% 700px;
+    }
+}
+//============================ background ============================================================== //
+.background-for__block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}

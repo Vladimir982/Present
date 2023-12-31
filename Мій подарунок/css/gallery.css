@@ -1,0 +1,1115 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+  color: #000;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  color: #000;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+  color: #000;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  color: #000;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  background: #BACED3;
+  min-height: 120px;
+  z-index: 5;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  margin: 0px 0px 0px 25%;
+}
+
+.menu__list {
+  display: flex;
+}
+.menu__list .menu__item:before {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  content: url("../image/home/icons/bear-2316805_1920 1.svg");
+  max-width: 82px;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+}
+.menu__list .menu__item:hover:before {
+  opacity: 1;
+  transition: all 0.8s ease 0s;
+}
+.menu__list .menu__item .menu__item:not(:last-child) {
+  margin: 0px 4 0px 0px 0px;
+}
+.menu__list .menu__item:hover {
+  transition: all 0.5s ease 0s;
+  transform: scale(1), perspective(100px);
+}
+.menu__list .menu__item .menu__link {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 38px;
+  color: #FFFFFF;
+  transition: all 0.5s ease 0s;
+  transform: scale(1), perspective(100px);
+  border-bottom: 3px solid transparent;
+}
+.menu__list .menu__item .menu__link:hover {
+  transition: all 0.5s ease 0s;
+  border-bottom: 3px solid #fff;
+}
+
+.wrapper {
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Caveat", cursive;
+  background: linear-gradient(90deg, #6DD9C5 -1.39%, rgba(255, 255, 255, 0) 49.83%, #AB274F 100%);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+._container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.page__start {
+  margin: 22% 0px 0px 0px;
+  position: relative;
+}
+
+.start__music {
+  position: absolute;
+  top: -83%;
+  left: 0;
+}
+.start__music p {
+  max-width: 300px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.start__body {
+  display: flex;
+  position: relative;
+}
+.start__body .start__img-left {
+  display: flex;
+}
+.start__body .start__img-left .img-left__img-one {
+  max-width: 240px;
+  position: relative;
+  top: 36px;
+  left: 0;
+  z-index: 1;
+}
+.start__body .start__img-left .img-left__img-one img {
+  max-width: 100%;
+}
+.start__body .start__center-list {
+  max-width: 246px;
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -110px;
+  left: 0;
+}
+.start__body .start__center-list .center-list__body .center-list__img {
+  position: absolute;
+  top: 10px;
+  left: 93px;
+  max-width: 44px;
+}
+.start__body .start__center-list .center-list__body .center-list__img img {
+  max-width: 100%;
+}
+.start__body .start__center-list .center-list__body .center-list__text {
+  padding: 60px 20px 0px 20px;
+}
+.start__body .start__center-list .center-list__body .center-list__text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.start__body .start__img-right {
+  display: flex;
+}
+.start__body .start__img-right .img-right__img-one {
+  max-width: 173px;
+  position: relative;
+  top: -65px;
+  left: 90px;
+}
+.start__body .start__img-right .img-right__img-one img {
+  max-width: 100%;
+}
+.start__body .start__img-right .img-right__img-two {
+  max-width: 310px;
+  position: relative;
+  top: -165px;
+  left: 80px;
+}
+.start__body .start__img-right .img-right__img-two img {
+  max-width: 100%;
+}
+.start__body .start__img-right .img-right__img-two .img-right__text {
+  max-width: 196px;
+  position: absolute;
+  top: 36px;
+  left: 58px;
+}
+.start__body .start__img-right .img-right__img-two .img-right__text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.photo-one__size {
+  padding: 27px 27px 20px 27px;
+  max-width: 280px;
+  background: #F3FDFF;
+}
+
+.photo__img {
+  max-width: 250px;
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+  opacity: 0.77;
+  border: 2px solid transparent;
+}
+.photo__img img {
+  max-width: 100%;
+}
+.photo__img:hover {
+  transition: all 0.5s ease 0s;
+  transform: scale(1.1);
+  opacity: 1;
+  border: 2px solid #FBCEB1;
+}
+
+.attach-button {
+  max-width: 33px;
+}
+.attach-button img {
+  max-width: 100%;
+}
+
+.page__album-page-one {
+  position: relative;
+  top: -45px;
+  left: 0;
+}
+
+.album-page-one__img {
+  background: url("../image/Gallery page one/background-6650672_1920 2.jpg") 0px 0px/cover no-repeat;
+  border-radius: 105px;
+  padding: 20px 0 120px 0;
+}
+
+.album-page-one__album-section-one .album-section-one__first-img {
+  position: relative;
+  top: 29px;
+  left: 114px;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo {
+  display: flex;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-one__body {
+  position: relative;
+  top: 7px;
+  left: 106px;
+  transform: rotate(-12.69deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-one__body .photo-one__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 20px;
+  background: #FBCEB1;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-one__body .photo-button__img-one {
+  position: absolute;
+  top: 0;
+  left: 87%;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-one__body .photo-button__img-two {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .album-section-one__second-img {
+  position: relative;
+  top: 152px;
+  left: 99px;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-two__body {
+  position: relative;
+  top: -23px;
+  left: 92px;
+  transform: rotate(15deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-two__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #FBCEB1;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-two__body .photo-button__img-three {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-two__body .photo-button__img-four {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-two__body .photo-button__img-cat {
+  max-width: 100px;
+  position: absolute;
+  bottom: 27px;
+  right: 80%;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .album-section-one__third-img {
+  position: relative;
+  top: 152px;
+  left: 106px;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-three__body {
+  position: relative;
+  top: -8px;
+  left: 103px;
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-three__body .photo-three__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 0px;
+  background: #FBCEB1;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-one__body .album-section-one__photo .photo-three__body .photo-button__img-five {
+  position: absolute;
+  top: 2px;
+  left: 42%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__first-img {
+  position: relative;
+  top: -11px;
+  right: -73%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo {
+  display: flex;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body {
+  position: relative;
+  top: 84px;
+  left: 24%;
+  transform: rotate(-31.9deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #A8E4A0;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body .photo__img:hover {
+  border: 2px solid #A8E4A0;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body .photo-button__img-six {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-four__body .photo-button__img-seven {
+  position: absolute;
+  bottom: 12px;
+  right: 87%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .album-section-two__second-img {
+  position: relative;
+  top: 129px;
+  right: -23.6%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body {
+  position: relative;
+  top: -23px;
+  left: 323px;
+  transform: rotate(13.27deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #A8E4A0;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body .photo__img:hover {
+  border: 2px solid #A8E4A0;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body .photo-button__img-eight {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-one__album-section-one .album-section-two__photo .album-section-two__photo .photo-five__body .photo-button__img-nine {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__first-img {
+  position: relative;
+  top: -11px;
+  left: 10%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo {
+  display: flex;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body {
+  position: relative;
+  top: -90px;
+  left: 12.4%;
+  transform: rotate(20.45deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #F19CBB;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body .photo__img:hover {
+  border: 2px solid #F19CBB;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body .photo-button__img-ten {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-six__body .photo-button__img-eleven {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .album-section-three__second-img {
+  position: relative;
+  top: 183px;
+  right: -10.9%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body {
+  position: relative;
+  top: 26px;
+  left: 154px;
+  transform: rotate(-15.85deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #F19CBB;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body .photo__img:hover {
+  border: 2px solid #F19CBB;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body .photo-button__img-twelve {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-seven__body .photo-button__img-thirteen {
+  position: absolute;
+  bottom: 12px;
+  right: 87%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .album-section-three__third-img {
+  position: relative;
+  top: 114px;
+  right: -11.6%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body {
+  position: relative;
+  top: -40px;
+  left: 153px;
+  transform: rotate(11.81deg);
+  z-index: 2;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #F19CBB;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo__img:hover {
+  border: 2px solid #F19CBB;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo-button__img-fourteen {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo-button__img-fifteen {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .photo-eight__body .photo-button__img-sixteen {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-one__album-section-one .album-section-three__photo .album-section-three__photo .album-section-three__fourth-img {
+  position: relative;
+  top: 358px;
+  right: 8.4%;
+}
+
+.page__between-album {
+  position: relative;
+  margin: -105px 0 -58px 0;
+}
+
+.between-album__body {
+  display: flex;
+  justify-content: space-around;
+  z-index: 3;
+}
+.between-album__body .between-album__elem-one {
+  z-index: 3;
+}
+.between-album__body .between-album__ele-two {
+  z-index: 3;
+}
+.between-album__body .between-album__elem-three {
+  position: absolute;
+  top: 58px;
+  right: 22%;
+  z-index: -1;
+}
+.between-album__body .between-album__elem-four {
+  z-index: 3;
+}
+
+.page__album-page-two {
+  position: relative;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+}
+
+.album-page-two__img {
+  background: url("../image/Gallery page one/christmas-1891864_1280 1.jpg") 0px 0px/cover no-repeat;
+  border-radius: 105px;
+  padding: 40px 0 48% 0;
+}
+
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-page-two-section-one__first-img {
+  position: relative;
+  top: 0;
+  left: -11%;
+  z-index: 3;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body {
+  position: relative;
+  top: 67px;
+  left: -9.7%;
+  transform: matrix(0.98, -0.21, 0.18, 0.98, 0, 0);
+  z-index: 6;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #9DD1F4;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body .photo__img:hover {
+  border: 2px solid #9DD1F4;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body .photo-button__img-seventeen {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-nine__body .photo-button__img-eighteen {
+  position: absolute;
+  bottom: 12px;
+  right: 87%;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .album-page-two-section-one__second-img {
+  position: relative;
+  top: 281px;
+  right: 9.8%;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body {
+  position: relative;
+  top: 177px;
+  left: -9.3%;
+  transform: matrix(0.98, 0.22, -0.19, 0.98, 0, 0);
+  z-index: 6;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #9DD1F4;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body .photo__img:hover {
+  border: 2px solid #9DD1F4;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body .photo-button__img-nineteen {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .photo-ten__body .photo-button__img-twenty {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-two-section-one__body .album-page-two-section-one__photo .album-two-section-one__photo .album-page-two-section-one__third-img {
+  position: relative;
+  top: 580px;
+  right: 3.4%;
+  z-index: 5;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo {
+  display: flex;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body {
+  position: relative;
+  top: 375px;
+  left: 11.6%;
+  transform: matrix(0.97, -0.2, 0.23, 0.98, 0, 0);
+  z-index: 16;
+  height: 403px;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #9DD1F4;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body .photo__img:hover {
+  border: 2px solid #9DD1F4;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body .photo-button__img-twenty-one {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-eleven__body .photo-button__img-twenty-two {
+  position: absolute;
+  bottom: 12px;
+  right: 87%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-two__second-img {
+  position: relative;
+  top: 483px;
+  right: -9.6%;
+  z-index: 6;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-one__second-img {
+  position: absolute;
+  top: 33%;
+  left: 42%;
+  max-width: 242px;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-one__second-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body {
+  position: relative;
+  top: 413px;
+  left: 9.6%;
+  transform: matrix(0.98, 0.21, -0.18, 0.98, 0, 0);
+  z-index: 16;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #9DD1F4;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body .photo__img:hover {
+  border: 2px solid #9DD1F4;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body .photo-button__img-twenty-three {
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-twelve__body .photo-button__img-twenty-four {
+  position: absolute;
+  bottom: 12px;
+  left: 87%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-two__third-img {
+  position: relative;
+  top: 483px;
+  right: -9.1%;
+  z-index: 6;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-two__second-img {
+  position: absolute;
+  top: 33%;
+  right: 33px;
+  max-width: 118px;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-two__second-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-three__second-img {
+  position: absolute;
+  top: 36%;
+  right: 21%;
+  max-width: 118px;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-three__second-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-four__second-img {
+  position: absolute;
+  top: 26%;
+  right: 11%;
+  max-width: 183px;
+  z-index: 15;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-four__second-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-five__second-img {
+  position: absolute;
+  top: 37%;
+  right: 11%;
+  max-width: 141px;
+  z-index: 15;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .album-page-two-section-special-five__second-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body {
+  position: relative;
+  top: 269px;
+  left: 7.6%;
+  transform: matrix(0.98, -0.22, 0.19, 0.98, 0, 0);
+  z-index: 16;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body .photo-two__text {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  background: #9DD1F4;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body .photo__img {
+  border: 2px solid transparent;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body .photo__img:hover {
+  border: 2px solid #9DD1F4;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body .photo-button__img-twenty-three {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.album-page-two-section-one__body .album-page-two-section-two__photo .album-two-section-two__photo .photo-thirteen__body .photo-button__img-twenty-four {
+  position: absolute;
+  bottom: 12px;
+  right: 87%;
+}
+.album-page-two-section-one__body .album-page-two-section-special-img {
+  position: absolute;
+  bottom: 4.7%;
+  left: 35%;
+}
+.album-page-two-section-one__body .album-page-two-section-special__one-img {
+  position: absolute;
+  bottom: 14%;
+  left: 29%;
+  max-width: 136px;
+}
+.album-page-two-section-one__body .album-page-two-section-special__one-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-special__two-img {
+  position: absolute;
+  bottom: 4.7%;
+  left: 81%;
+  max-width: 114px;
+}
+.album-page-two-section-one__body .album-page-two-section-special__two-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-special__three-img {
+  position: absolute;
+  bottom: 13%;
+  left: 68%;
+  max-width: 68px;
+  transform: scaleX(-1);
+}
+.album-page-two-section-one__body .album-page-two-section-special__three-img img {
+  max-width: 100%;
+}
+.album-page-two-section-one__body .album-page-two-section-special__four-img {
+  position: absolute;
+  bottom: 2%;
+  left: 43%;
+  transform: rotate(3deg);
+  max-width: 253px;
+}
+.album-page-two-section-one__body .album-page-two-section-special__four-img img {
+  max-width: 100%;
+}
+
+.page__album-page-botton {
+  position: relative;
+}
+
+.album-page-botton__main-img {
+  position: relative;
+  top: 0;
+  left: 23%;
+}
+
+.album-page-botton__one-img {
+  position: absolute;
+  top: 45%;
+  left: 47.5%;
+  max-width: 157px;
+  transform: rotate(15deg);
+}
+.album-page-botton__one-img img {
+  max-width: 100%;
+}
+
+.album-page-botton__two-img {
+  position: absolute;
+  top: 47%;
+  left: 66%;
+  max-width: 174px;
+}
+.album-page-botton__two-img img {
+  max-width: 100%;
+}
+
+.album-page-botton__three-img {
+  position: absolute;
+  top: 2%;
+  left: 45.2%;
+  max-width: 128px;
+}
+.album-page-botton__three-img img {
+  max-width: 100%;
+}
+
+.album-page-botton__block {
+  position: absolute;
+  bottom: 39px;
+  right: 14%;
+  width: 203px;
+  height: 89px;
+  z-index: 4;
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+  background: url("../image/Gallery page one/Arrow.svg") 0px 0px no-repeat;
+}
+.album-page-botton__block .album-page-botton__link {
+  margin: 35px 21px 0px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.album-page-botton__block:active {
+  bottom: 3;
+}
+.album-page-botton__block:hover {
+  transition: all 0.5s ease 0s;
+  transform: scale(1.2);
+}
+
+.footer {
+  margin: 10px 0px 0px 0px;
+  background: linear-gradient(180deg, rgba(187, 220, 213, 0.9) 0%, rgba(36, 149, 148, 0.18) 99.99%, rgba(14, 138, 138, 0) 100%, rgba(14, 138, 138, 0) 100%);
+  min-height: 120px;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer__body .footer__logo {
+  display: block;
+}
+.footer__body .footer__block {
+  display: block;
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+}
+.footer__body .footer__block:hover {
+  transition: all 0.5s ease 0s;
+  transform: scale(1.2);
+}
+.footer__body .footer__block .footer__word {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 25px;
+  color: #8f8989;
+}
